@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html leng="en">
+<head>
+   <meta charset="UFT-8">
+   	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CSS Attribute Selector</title>
+   <style type="text/css">
+   	input[type=text]{
+   		width: 100%;
+   		padding: 15px;
+   		margin: 8px 0px;
+   		box-sizing: border-box;
+   		border: 2px solid red;
+   		border-radius: 5px; 
+   		/*border:none;
+   		border-bottom: 2px solid green;*/ 
+   		background:gray;
+   		color: white;
+
+   	}
+   	input[type="password"]:focus{
+   		                    background-color: lightblue;
+   		                    border: 3px solid green
+   		                    ;
+
+   	}
+   </style>
+</head>
+<body>
+	<label for="fname">First name</label>
+	<input type="text" id="fname" name="fname">
+	<label for="psw">password</label>
+	<input type="password" id="psw" name="psw">
+</body>
+</html>   

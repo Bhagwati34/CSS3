@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html leng="en">
+<head>
+   <meta charset="UFT-8">
+   	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CSS Horizontal&vertical alignment</title>
+   <style type="text/css">
+   	.center{
+   		margin: auto;
+   		width: 100px;
+   		border:2px solid green;
+   		padding:10px;
+   	}
+   	.in{
+        text-align:center;
+   		width: 100px;
+   		border:2px solid gray;
+   		padding:10px;
+   	}
+   	img{
+   		display: block;
+   		margin-left: auto;
+   		margin-right: auto;
+   		width: 400px;
+   		height: auto;
+   	}
+   	.left{
+   		position: absolute;
+   		left: 0;
+   		top: 220px;
+   		border: 2px solid green;
+   		width: 200px;
+   		height: auto;
+   	}
+   	.right{
+   		position: absolute;
+   		right: 0;
+   		top: 200px;
+   		border: 2px solid green;
+   		width: 200px;
+   		height: auto;
+   	}
+   	.fright{
+   		float:right;
+   		width: 200px;
+   		height: auto;
+   		border: 2px solid black;
+   		overflow: auto;
+   	}
+   	.fleft{
+   		float:left;
+   		width: 200px;
+   		height: auto;
+   		border: 2px solid black;
+   		overflow: auto;
+   	}
+   </style>
+</head>
+<body>
+	<div class="center">this text alignment is center using margin:auto</div>
+	<div class="in">this text alignment is center using text-align:center</div> 
+	<img src="dan-gold-N7RiDzfF2iw-unsplash.jpg" alt="car image">
+	<div class="left">text alignment is left using position</div>
+	<div class="right">text alignment is right using position</div>
+	<div class="fright">text alignment is right using float</div>
+	<div class="fleft">text alignment is left using float</div>
+</body>
+</html>

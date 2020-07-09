@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html leng="en">
+<head>
+   <meta charset="UFT-8">
+   	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CSS combinators</title>
+   <style type="text/css">
+   	.space p{
+   		background-color: yellow;
+   		width:100px;
+   	}
+   	.child>p{
+   		background-color: green;
+   		width: 100px;
+   	}
+   	.adjacent+p{
+   		background-color: gray;
+   		width: 100px;
+   	}
+   	.sibling~p{
+   		background-color: red;
+   		width: 100px;
+   	}
+   </style>
+</head>
+<body>
+	<div class="space">
+		<p>paragraph 1</p>
+		<p>paragraph 2</p>
+		<p>paragraph 3</p>
+		<p>paragraph 4</p>
+		<p>paragraph 5</p>
+	</div><br>
+	<div class="child">
+		<p>paragraph 1</p>
+		<p>paragraph 2</p>
+		<section><p>paragraph 3</p></section>
+		<p>paragraph 4</p>
+		<p>paragraph 5</p>
+	</div><br>
+	<div class="adjacent">
+		<p>paragraph 1</p>
+		<p>paragraph 2</p>
+		<p>paragraph 3</p>
+	</div>
+		<p>paragraph 4</p>
+		<p>paragraph 5</p>
+
+	</br><div class="sibling">
+		<p>paragraph 1</p>
+		<p>paragraph 2</p>
+		<p>paragraph 3</p>
+	</div>
+		<p>paragraph 4</p>
+		<code>for save ctrl+s</code>
+		<p>paragraph 5</p>
+	
+</body>
+</html>     

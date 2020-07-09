@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html leng="en">
+<head>
+   <meta charset="UFT-8">
+   	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CSS image position and text position in image</title>
+   <style type="text/css">
+   		img{
+   		width: 100%;
+   		height:auto;
+   		opacity: 0.6;
+   	}
+   	.container{
+   		position: relative;
+   	}
+   	.top-left{
+   		position: absolute;
+   		top:8px;
+   		left:10px;
+   		font-size: 20px;
+   		font-weight: bold;
+   	}
+   	.top-right{
+   		position: absolute;
+   		top:8px;
+   		right:10px;
+   		font-size: 20px;
+   		font-weight: bold;
+   	}
+   	.bottom-left{
+   		position: absolute;
+   		bottom:8px;
+   		left:10px;
+   		font-size: 20px;
+   		font-weight: bold;
+   	}
+   	.bottom-right{
+   		position: absolute;
+   		bottom: 8px;
+   		right: 10px;
+   		font-size: 20px;
+   		font-weight: bold;
+   	}
+   	.center{
+   		position: absolute;
+   		top:50%;
+   		width: 100%; 
+   		font-size: 20px;
+   		text-align:center;
+   		font-weight: bold;
+   	}
+   </style>
+</head>
+<body>
+	<div class="container">
+		<img src="dan-gold-N7RiDzfF2iw-unsplash.jpg" alt="car image">
+		<div class="top-left">
+			Top left
+		</div>
+		<div class="top-right">Top right</div>
+		<div class="bottom-left"> Bottom left</div>
+		<div class="bottom-right"> Bottom right</div>
+		<div class="center">center</div>
+	</div>
+</body>
+</html>   

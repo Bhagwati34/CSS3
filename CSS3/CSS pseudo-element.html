@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html leng="en">
+<head>
+   <meta charset="UFT-8">
+   	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CSS combinators</title>
+   <style type="text/css">
+   	p::first-line{
+   		color:red;
+   		font-variant: small-caps;
+   	}
+   	p::first-letter{
+   		color: green;
+   		font-size: xx-large;
+   	}
+   	p.demo::first-letter{
+   		color:gray;
+   		font-size: 200%;
+   		font-variant: small-caps;
+   	}
+   	p::before{
+   		content: url('icons8-small-axe-16.png');
+   		
+   	}
+   	p::after{
+   		content: url("icons8-small-axe-16.png");
+   	}
+   	div::selection{
+   		color:green;
+   		background-color: yellow;
+   	}
+   </style>
+</head>
+<body>
+	<p>The standard "5-Paragraph Essay" most of us have heard of or been required to do</p>
+	<p class="demo">The standard "5-Paragraph Essay" most of us have heard of or been required to do</p>
+	<div>
+		The standard "5-Paragraph Essay" most of us have heard of or been required to do in a high school or college writing class is under attack: It's formulaic. It zaps creativity. It's too rule-based.It lacks sophistication. I'd agree that it is old fashioned. Some trace its roots to the Schoolmarms of the 19th century. According to Matthew Nunes in his essay "The Five-Paragraph Essay: Its Evolution and Roots in Theme-Writing," its roots trace back to the Roman and Greek rhetoricians several centuries B.C.A.I trace its roots much further back than that, all the way to the architecture of the human mind.
+	</div>
+</body>
+</html>   

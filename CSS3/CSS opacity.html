@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html leng="en">
+<head>
+   <meta charset="UFT-8">
+   	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CSS opacity/Transparency</title>
+   <style type="text/css">
+   	img{
+   		opacity: 0.5;
+   		width: 400px;
+   		height: 400px;
+   	}
+   	img:hover{
+   		opacity: 1.0;
+   	}
+   	div.background{
+   		background-image: url('dan-gold-N7RiDzfF2iw-unsplash.jpg');
+   		background-size: 100% 100%;
+   		border:2px solid green;
+   		width:100%;
+   		height: auto;
+
+   	}
+   	div.transbox{
+   		margin:30px;
+   		background-color: gray;
+   		border: 5px solid red;
+   		border-radius: 15px;
+   		opacity: 0.6;
+
+
+   	}
+   	div.transbox p{
+   		text-align: center;
+   		margin:5%;
+   		font-weight: bold;
+   		color: black;
+   		font-size: 50px;
+   		text-shadow: 2px 2px black;
+   	}
+   	div.transbox p:first-letter{
+   		font-size:70px;
+   	}
+   	</style>
+</head>
+<body>
+	<img src="jake-blucker-tMzCrBkM99Y-unsplash.jpg" alt="image">
+	<div class="background">
+		<div class="transbox">
+			<p>This is car</p>
+		</div>
+	</div>
+</body>
+</html>   	

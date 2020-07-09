@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html leng="en">
+<head>
+   <meta charset="UFT-8">
+   	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CSS Attribute Selector</title>
+   <style type="text/css">
+   	a[target]{
+   		color: red;
+   	}
+   	a[target="_blank"]{
+   		background-color: yellow;
+   	}
+   	img[title~="car"]{
+   		border: 5px solid yellow;
+   		margin-top: 20px;
+   	}
+   	[class|="top"]{
+   		background-color: gray;
+   	}
+   	[class^="top"]{
+   		color: red;
+   	}
+   	[class$="not"]{
+   		background-color: green;
+   	}
+   	[class*="to"]{
+   		border:5px solid red;
+   	}
+   </style>
+</head>
+<body>
+	<a href="CSS image gallary.html" target="_blank">Image</a><br>
+	<img src="dan-gold-N7RiDzfF2iw-unsplash.jpg"  title="car"alt="image" width="600" height="200">
+	<h1 class="top-h">heading 1</h1>
+	<p class="top-p"> paragraph 1</p>
+	<p class="topnot">paragraph 2</p>
+</body>
+</html>

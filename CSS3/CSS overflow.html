@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html leng="en">
+<head>
+   <meta charset="UFT-8">
+   	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CSS overflow</title>
+   <style type="text/css">
+   	div.visible{
+   		width: 200px;
+   		height:100px;
+   		background-color:gray;
+   		overflow:visible;
+   	}
+   	div.hidden{
+   		position: absolute;
+   		top:0;
+   		right: 0;
+   		width: 200px;
+   		height:100px;
+   		background-color:gray;
+   		overflow:hidden;
+   	}
+   	div.scroll{
+   		position: absolute;
+   		top:210px;
+   		right:0;
+   		width: 200px;
+   		height:100px;
+   		background-color:gray;
+   		overflow:scroll;
+   	}
+   	div.auto{
+   		position: absolute;
+   		bottom:10px;
+   		right:0;
+   		width: 200px;
+   		height:100px;
+   		background-color:gray;
+   		overflow:auto;
+   	}
+
+   </style>
+</head>
+<body>
+	<div class="visible">
+		The standard "5-Paragraph Essay" most of us have heard of or been required to do in a high school or college writing class is under attack: It's formulaic. It zaps creativity. It's too rule-based. It lacks sophistication. I'd agree that it is old fashioned. Some trace its roots to the Schoolmarms of the 19th century. According to Matthew Nunes in his essay "The Five-Paragraph Essay: Its Evolution and Roots in Theme-Writing," its roots trace back to the Roman and Greek rhetoricians several centuries B.C.A.I trace its roots much further back than that, all the way to the architecture of the human mind.		
+	</div><br>
+	<div class="hidden">
+		The standard "5-Paragraph Essay" most of us have heard of or been required to do in a high school or college writing class is under attack: It's formulaic. It zaps creativity. It's too rule-based. It lacks sophistication. I'd agree that it is old fashioned. Some trace its roots to the Schoolmarms of the 19th century. According to Matthew Nunes in his essay "The Five-Paragraph Essay: Its Evolution and Roots in Theme-Writing," its roots trace back to the Roman and Greek rhetoricians several centuries B.C.A.I trace its roots much further back than that, all the way to the architecture of the human mind.		
+	</div>
+	<div class="scroll">
+		The standard "5-Paragraph Essay" most of us have heard of or been required to do in a high school or college writing class is under attack: It's formulaic. It zaps creativity. It's too rule-based. It lacks sophistication. I'd agree that it is old fashioned. Some trace its roots to the Schoolmarms of the 19th century. According to Matthew Nunes in his essay "The Five-Paragraph Essay: Its Evolution and Roots in Theme-Writing," its roots trace back to the Roman and Greek rhetoricians several centuries B.C.A.I trace its roots much further back than that, all the way to the architecture of the human mind.		
+	</div>
+	<div class="auto">
+		The standard "5-Paragraph Essay" most of us have heard of or been required to do in a high school or college writing class is under attack: It's formulaic. It zaps creativity. It's too rule-based. It lacks sophistication. I'd agree that it is old fashioned. Some trace its roots to the Schoolmarms of the 19th century. According to Matthew Nunes in his essay "The Five-Paragraph Essay: Its Evolution and Roots in Theme-Writing," its roots trace back to the Roman and Greek rhetoricians several centuries B.C.A.I trace its roots much further back than that, all the way to the architecture of the human mind.		
+	</div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html leng="en">
+<head>
+   <meta charset="UFT-8">
+   	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CSS Horizontal navigation bar</title>
+   <style type="text/css">
+   	ul{
+   		list-style-type: none;
+   		padding: 0;
+   		margin:0;
+   		width: 100%;
+   		height:80px;
+   		background-color: gray;
+   		/*border:2px solid black;*/
+   		position: fixed;
+   		top:0;
+   		overflow: auto;
+
+   	}
+   	li a{
+   		display: inline;
+   		color: black;
+   		padding: 10px 10px;
+   		text-decoration: none;
+
+   	}
+   	li a:hover{
+   		background-color: green;
+   		color: white;
+   	
+   	}
+   	.active{
+   		background-color: red;
+   		color: white;
+
+   	}
+   	li{
+   		text-align:center;
+   		float: left;
+   		margin:auto;
+   		border-right:2px solid gray;
+   	}
+   	a{
+   		text-align: center;
+   	}
+   	/*li:last-child{
+   		border-bottom: none;
+   	}*/
+   </style>
+</head>
+<body>
+	<ul>
+		<li><a class="active" href="CSS border.html">Home</a></li>
+		<li><a href="CSS float.html">News</a></li>
+		<li><a href="CSS position.html">Contact</a></li>
+		<li><a href="CSS opacity.html">About</a></li>
+	</ul>
+</body>
+</html>   

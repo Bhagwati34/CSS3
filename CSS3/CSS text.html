@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html leng="en">
+<head>
+   <meta charset="UFT-8">
+   	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CSS Text</title>
+   <style type="text/css">
+   	body{background-color: lightblue;
+   		color:blue;
+   	}
+   	h1{
+   		color:green;
+   	}
+   	h2{
+   		background-color: gray;
+   		color:white;
+   	}
+   	.right{
+   		     text-align: right;
+   	}
+   	.center{
+   		text-align:center;
+   	}
+   	.left{
+   		text-align: left;
+   	}
+   	h1.ltr{
+   		direction:ltr;
+   		/*unicode-bidi: bidi-override; */
+   	}
+   	h1.rtl{
+   		direction: rtl;
+   		unicode-bidi: bidi-override;
+   	}
+   	img.top{
+   		vertical-align: top;
+   	}
+   	img.middle{
+   		vertical-align: middle;
+   	}
+   	img.bottom{
+   		vertical-align: bottom;
+   	}
+   	.overline{
+   		text-decoration: overline;
+   	}
+   	.linethrough{
+   		text-decoration: line-through;
+   	}
+   	.underline{
+   		text-decoration: underline;
+   	}
+   	.uppercase{
+   		text-transform: uppercase;
+   	}
+   	.lowercase{
+   		text-transform: lowercase;
+   	}
+   	.capitalize{
+   		text-transform: capitalize;
+   	}
+   	.space{
+   		text-indent: 50px;
+   	}
+   	.letter{
+   		letter-spacing: 5px;
+   	}
+   	.lt{
+   		letter-spacing: -3px;
+   	}
+   	.small{
+   		line-height: 0.8px;
+   	}
+   	.big{
+   		line-height: 1.8px;
+   	}
+   	.word{
+   		word-spacing: 10px;
+   	}
+   	.wd{
+   		word-spacing: -5px;
+   	}
+   	.shadow{
+   		text-shadow: 2px 2px;
+   	}
+   	.color{
+   		text-shadow: 2px 2px red;
+   	}
+   	.blur{
+   		text-shadow:2px 2px 5px red;
+   	}
+   </style>
+</head>
+<body>
+	<!-- text color -->
+	<h1>text color is green</h1>
+	<!-- text color and background color -->
+	<h2>text color is white and background color is gray</h2>
+	<!-- text Alignment -->
+    <h1 class="right">text alignment is right</h1>
+    <h1 class="center">text alignment is center</h1>
+    <h1 class="left">text alignment is left</h1>
+
+    <!-- text direction -->
+    <h1 class="ltr">text direction left to right</h1>
+    <h1 class="rtl">text direction right to left</h1>
+    <!-- vertical alignment -->
+    <h1> <img class="top" src="dan-gold-N7RiDzfF2iw-unsplash.jpg" alt="car image" width="200px" height="200px" >text alignment is top</h1><br>
+    <h1><img class="middle" src="dan-gold-N7RiDzfF2iw-unsplash.jpg" alt="car image" width="200px" height="200px">text alignment is middle</h1><br>
+    <h1><img class="bottom" src="dan-gold-N7RiDzfF2iw-unsplash.jpg" alt="car image" width="200px" height="200px">text alignment is bottom</h1><br>
+    <!-- text decoration -->
+    <h1 class="overline">text is overline</h1>
+    <h1 class="linethrough">text is line-through</h1>
+    <h1 class="underline">text is underline</h1>
+    <!-- text transformation-->
+    <h1 class="uppercase"> text is in uppercase</h1>
+     <h1 class="lowercase"> text is in lowercase</h1>
+      <h1 class="capitalize"> text is in capitalize</h1>
+      <!-- text spacing-->
+       <h1 class="space"> text have 50px space from start</h1>
+       <!-- letter spacing-->
+       <h1 class="letter"> letter space is 5px</h1>
+       <h1 class="lt"> letter space is -3px</h1>
+       <!-- line height-->
+       <h1 class="small"> line height is 0.8</h1>
+       <h1 class="big"> line height is 1.8</h1>
+       <!-- word spacing-->	
+       <h1 class="word"> word space is 10px</h1>
+       <h1 class="wd"> word space is -5px</h1>
+       <!-- text shadow-->
+       <h1 class="shadow">text shadow</h1>
+       <h1 class="color">text shadow</h1>
+       <h1 class="blur">text shadow</h1>
+</body>
+</html>

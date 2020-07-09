@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html leng="en">
+<head>
+   <meta charset="UFT-8">
+   	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CSS combinators</title>
+   <style type="text/css">
+   	a:link{
+   		color:red;
+   	}
+   	a:visited{
+   		color: pink;
+   	}
+   	a:hover{
+   		color:blue;
+   	}
+   	a:active{
+   		color:yellow;
+   	}
+   a.high:hover{
+   		color:gray;
+   	}
+   	div.color:hover{
+   		background-color: yellow;
+   	}
+   	
+   	  h2{
+   		display: none;
+   		background-color: blue;
+   		padding: 20px;
+   	}
+   	div.tooltip:hover h2{
+   		display: block;
+   	}
+   	div.child p:first-child{
+   		color:green;
+   	}
+   	p i:first-child{
+   		color:red;
+   	}
+   	S
+   </style>
+</head>
+<body>
+	<a href="CSS overflow.html">overflow</a>
+    <p><a class="high" href="CSSfloat.html">float</a></p>
+    <p><a href="CSS combinators.html">combinators</a></p>
+    <div class="color">
+    	text background color is yellow
+    </div><br>
+    <div class="tooltip">
+    	tooltip background color is blue 
+    	<h2>Bhagwati dangi</h2>  	
+    </div>
+    <div class="child">
+    	<p>hello</p>
+    	<p>world</p>    	
+    </div>
+
+    <p>i am <i>strong</i> man in the <i> world</i></p>
+    <p>i am <i>strong</i> man in the <i> world</i></p><br>
+    
+
+	
+</body>
+</html>   
